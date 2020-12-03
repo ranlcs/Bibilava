@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Choix du touche"/>
+	<RadioGroup
+		android:id="@+id/choix"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical" >
+		<RadioButton 
+			android:id="@+id/glisser"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Glisser" />
+		<RadioButton
+			android:id="@+id/bouton"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Bouton" />
+	</RadioGroup>
+</LinearLayout>

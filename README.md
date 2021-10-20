@@ -1,2 +1,2 @@
 # Bibilava
-A snake game
+A snake game for android phone
